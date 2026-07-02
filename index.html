@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Durga Cyber Cafe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        body{
+            scroll-behavior: smooth;
+            margin:0;
+            font-family:Arial, sans-serif;
+        }
+
+        header{
+            background:#0066cc;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+        nav{
+    background:#004a99;
+    text-align:center;
+    padding:15px;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-size:18px;
+        }
+
+     .hero-banner{
+    background: linear-gradient(135deg, #0066cc, #00aaff);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero-banner h1{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.hero-banner p{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.hero-btn{
+    background: white;
+    color: #0066cc;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+        .services{
+            padding:30px;
+            text-align:center;
+        }
+
+        .services h2{
+            color:#0066cc;
+        }
+
+        .services ul{
+            list-style:none;
+            padding:0;
+            font-size:20px;
+        }
+
+        .services li{
+            margin:10px;
+        }
+
+        footer{
+            background:#0066cc;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>
+        <i class="fa-solid fa-computer"></i>
+        Durga Cyber Cafe
+    </h1>
+
+    <p>📍 Budhana, Muzaffarnagar</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+</nav>
+<section class="hero-banner" id="home">
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800"
+     class="hero-image"
+     alt="Cyber Cafe">
+    <h1>💻 Durga Cyber Cafe</h1>
+    <p>सभी ऑनलाइन सेवाएँ एक ही जगह</p>
+
+    <a href="https://wa.me/917668526635" target="_blank" class="hero-btn">
+        📞 अभी संपर्क करें
+    </a>
+
+</section>
+
+
+<div class="services" id="services">
+    <h2>हमारी सेवाएँ</h2>
+
+    <ul>
+    <li><i class="fa-solid fa-file-lines"></i> Online Form Filling</li>
+
+    <li><i class="fa-solid fa-id-card"></i> PAN Card Services</li>
+
+    <li><i class="fa-solid fa-fingerprint"></i> Aadhaar Services</li>
+
+    <li><i class="fa-solid fa-passport"></i> Passport Services</li>
+
+    <li><i class="fa-solid fa-print"></i> Printout</li>
+
+    <li><i class="fa-solid fa-copy"></i> Photocopy</li>
+
+    <li><i class="fa-solid fa-scanner"></i> Scanning</li>
+
+    <li><i class="fa-solid fa-money-bill"></i> Online Bill Payment</li>
+</ul> 
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13919.32046756307!2d77.45902295707451!3d29.287316226494738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c3b665e37d2a1%3A0x63603a5b4404d1cf!2sShree%20Durga%20Cyber%20Cafe!5e0!3m2!1sen!2sin!4v1782924879135!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+ <section class="timing">
+    <h2>🕒 Opening Hours</h2>
+
+    <p>सोमवार - शनिवार : 8:00 AM - 8:00 PM</p>
+    <p>रविवार : 9:00 AM - 5:00 PM</p>
+</section>   
+    <h2>📩 हमसे संपर्क करें</h2>
+<section class="contact-form" id="contact">
+    <form style="display:flex; flex-direction:column; gap:15px;"></form>
+        <input type="text" placeholder="आपका नाम" required>
+
+        <input type="tel" placeholder="मोबाइल नंबर" required>
+
+        <textarea placeholder="अपना संदेश लिखें" rows="5"></textarea>
+
+        <button type="submit">भेजें</button>
+    </form>
+</section>
+
+<style>
+.contact-form{
+    width: 80%;
+    margin: 80px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.contact-form h2{
+    color: #0066cc;
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.contact-form button{
+    background: #0066cc;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contact-form button:hover{
+    background: #004a99;
+}
+</style>
+
+
+<section class="booking">
+    <section class="reviews">
+    <h2>⭐ ग्राहक क्या कहते हैं</h2>
+
+    <div class="review-box">
+        <p>"बहुत अच्छी सेवा और अच्छा व्यवहार।"</p>
+        <h4>- राहुल कुमार</h4>
+    </div>
+
+    <div class="review-box">
+        <p>"Budhana का सबसे अच्छा Cyber Cafe."</p>
+        <h4>- पूजा शर्मा</h4>
+    </div>
+
+</section>
+
+</section>
+<section class="booking">
+    <h2>🖥️ ऑनलाइन बुकिंग</h2>
+    <p>फॉर्म भरने या किसी सेवा के लिए अभी बुकिंग करें।</p>
+
+    <a href="https://wa.me/917668526635?text=नमस्ते,%20मुझे%20Durga%20Cyber%20Cafe%20की%20सेवा%20बुक%20करनी%20है।"
+       target="_blank"
+       class="booking-btn">
+       📅 Book Now
+    </a>
+</section>
+<section class="gallery">
+    <h2>📸 हमारी गैलरी</h2>
+
+    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400" alt="Cyber Cafe">
+    
+    <img src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?w=400" alt="Computer Services">
+    
+    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400" alt="Internet Cafe">
+</section>
+<style>
+    .timing{
+    background:#f4f8ff;
+    text-align:center;
+    padding:40px;
+    margin:30px 0;
+    border-radius:15px;
+}
+
+.timing h2{
+    color:#0066cc;
+}
+
+.timing p{
+    font-size:18px;
+}
+.booking{
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e6f2ff;
+}
+
+.booking h2{
+    color: #0066cc;
+}
+.reviews{
+    text-align:center;
+    padding:40px 20px;
+    background:#f4f8ff;
+}
+
+.review-box{
+    background:white;
+    padding:20px;
+    margin: 30px auto;
+    width:70%;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.review-box h4{
+    color:#0066cc;
+}
+
+.booking-btn{
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #0066cc;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.booking-btn:hover{
+    background-color: #004a99;
+}
+.gallery{
+    text-align:center;
+    padding:40px 20px;
+    background:#f4f8ff;
+}
+
+.gallery h2{
+    color:#0066cc;
+    margin-bottom:20px;
+}
+
+.gallery img{
+    width:300px;
+    height:200px;
+    margin:10px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+</style>
+<footer>
+    <div class="footer-container">
+
+        <div class="footer-box">
+            <h3>💻 Durga Cyber Cafe</h3>
+            <p>सभी ऑनलाइन सेवाएँ एक ही जगह उपलब्ध हैं।</p>
+        </div>
+
+        <div class="footer-box">
+            <h3>📞 Contact</h3>
+            <p>7668526635</p>
+            <p>Budhana, Muzaffarnagar</p>
+        </div>
+
+        <div class="footer-box">
+            <h3>🕒 Timing</h3>
+            <p>Mon - Sat: 8 AM - 8 PM</p>
+            <p>Sunday: 9 AM - 5 PM</p>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+        © 2026 Durga Cyber Cafe | All Rights Reserved
+    </p>
+</footer>
+
+<a href="https://wa.me/917668526635" target="_blank" class="whatsapp-btn">
+    💬 WhatsApp
+</a>
+
+<style>
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.whatsapp-btn:hover {
+    background-color: #1ebe5d;
+}
+.services {
+    padding: 40px;
+    background: #f4f8ff;
+    text-align: center;
+}
+
+.services h2 {
+    text-align: center;
+    color: #0066cc;
+    margin-bottom: 30px;
+}
+.services ul {
+    display: inline-block;
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.services li {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.services li:hover {
+    transform: translateY(-5px);
+}
+
+.services li i {
+    color: #0066cc;
+    margin-right: 10px;
+}
+footer{
+    background:#003366;
+    color:white;
+    padding:40px 20px;
+    margin-top:50px;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.footer-box{
+    width:250px;
+}
+
+.footer-box h3{
+    color:#00ccff;
+    margin-bottom:15px;
+}
+
+.footer-box p{
+    margin:8px 0;
+}
+
+.copyright{
+    text-align:center;
+    margin-top:20px;
+    color:#cccccc;
+}
+@media (max-width: 768px) {
+
+    .gallery img {
+        width: 90%;
+        height: auto;
+    }
+.hero-banner {
+    background: linear-gradient(to right, #0066cc, #00aaff);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+    .hero-banner h1 {
+        font-size: 30px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        .services {
+    text-align: center;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    text-align: center;
+}
+    }
+
+}
+.hero-image {
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+</style>
+
+</body>
+</html>
